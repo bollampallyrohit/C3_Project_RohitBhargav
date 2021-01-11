@@ -64,4 +64,9 @@ public class Restaurant {
         return name;
     }
 
+    public void calculateValue(String itemPrices, int price){
+        Item newItem = new Item(name, price);
+        menu.add(newItem);
+    }
+
 }
